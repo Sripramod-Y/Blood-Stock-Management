@@ -91,7 +91,7 @@ Run Locally:
 
 Launch Apache & MySQL in XAMPP/WAMP.
 
-Visit http://localhost/BSMS/index.php. (BSMS - Project root folder inside C:/xammp/htdocs/BSMS
+Visit http://localhost/BSMS/index.php. (BSMS - Project root folder inside C:/xammp/htdocs/BSMS)
 
 🚀 Future Enhancements
 📲 Mobile-friendly dark UI
