@@ -74,7 +74,6 @@
 
 ## 🛠️ Setup Instructions
 
-```bash
 git clone https://github.com/yourusername/bloodstock-management.git
 Import SQL:
 Open MySQL and import the Bloodstock.sql file.
@@ -114,4 +113,4 @@ PHPMailer (included in /vendor folder manually)
 No Composer required.
 And Replace the username and password in contact-donors.php 
 
-<p align="center"> <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="150px" alt="blood drop gif" /> </p> <p align="center" style="color:#FF4444;"> Built  by <strong>Sripramod</strong><br> CSE @ Anna University | 2025 </p> ```
+<p align="center"> <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="150px" alt="blood drop gif" /> </p> <p align="center" style="color:#FF4444;"> Built  by <strong>Sripramod</strong><br> CSE @ Anna University | 2025 </p> 
