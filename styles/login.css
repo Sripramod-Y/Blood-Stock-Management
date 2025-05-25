@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.ecg-line {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0.1;
+}
+
+.ecg-path {
+    stroke: #cc0000;
+    stroke-width: 2;
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: ecgMove 20s linear infinite;
+}
+
+@keyframes ecgMove {
+    0% { stroke-dashoffset: 1000; }
+    100% { stroke-dashoffset: 0; }
+}
+
+.heart-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.heart {
+    width: 120px;
+    height: 120px;
+    background-color: #cc0000;
+    transform: rotate(45deg);
+    animation: heartbeat 1.2s infinite;
+    box-shadow: 0 0 40px #cc0000;
+}
+
+.heart:before,
+.heart:after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-color: #cc0000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart:before {
+    top: -60px;
+    left: 0;
+}
+
+.heart:after {
+    top: 0;
+    left: -60px;
+}
+
+@keyframes heartbeat {
+    0% { transform: rotate(45deg) scale(0.9); }
+    14% { transform: rotate(45deg) scale(1.1); }
+    28% { transform: rotate(45deg) scale(0.9); }
+    42% { transform: rotate(45deg) scale(1.1); }
+    70% { transform: rotate(45deg) scale(0.9); }
+    100% { transform: rotate(45deg) scale(0.9); }
+}
+
+.login-container {
+    background: rgba(20, 20, 20, 0.85);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(204, 0, 0, 0.3);
+    width: 350px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(204, 0, 0, 0.3);
+    margin: 40px 0;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.guidelines-container {
+    background: rgba(20, 20, 20, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(204, 0, 0, 0.2);
+    width: 600px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(204, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+.guidelines-container h2 {
+    color: #cc0000;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.guidelines-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.guidelines-list li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #cc0000;
+    font-weight: 400;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: rgba(30, 30, 30, 0.8);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #cc0000;
+    box-shadow: 0 0 10px rgba(204, 0, 0, 0.5);
+}
+
+button {
+    background: linear-gradient(45deg, #cc0000, #ff3333);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    transition: all 0.3s;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff3333, #cc0000);
+    box-shadow: 0 0 15px rgba(204, 0, 0, 0.6);
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    color: #ff3333;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.success {
+    background-color: rgba(0, 255, 0, 0.15);
+    color: #00ff00;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.15);
+    color: #ff6666;
+    border: 1px solid rgba(255, 0, 0, 0.3);
+}
