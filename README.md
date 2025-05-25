@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#FF4444;">🩸 BloodStock Management System</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=FF4444&center=true&vCenter=true&width=600&lines=Smart+Blood+Inventory+Tracker;Auto+Expiry+%7C+Hospital+Request+Simulator;PHP+%2B+MySQL+%2B+AJAX+%3D+❤️" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=FF4444&center=true&vCenter=true&width=600&lines=Blood+Stock+Management+System;Auto+Expiry+%7C+Hospital+Request+Simulator;PHP+%2B+MySQL+%2B+AJAX+%3D+%F0%9F%A9%B8" alt="Typing Animation" />
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ Run Locally:
 
 Launch Apache & MySQL in XAMPP/WAMP.
 
-Visit http://localhost/bloodstock-management.
+Visit http://localhost/BSMS/index.php. (BSMS - Project root folder inside C:/xammp/htdocs/BSMS
 
 🚀 Future Enhancements
 📲 Mobile-friendly dark UI
