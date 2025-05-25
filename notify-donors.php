@@ -25,8 +25,8 @@ function contactDonors($conn, $bloodbank_id, $blood_group, $units_needed, $hospi
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'sripramod582@gmail.com';
-                $mail->Password = 'yoka eevl vmns whre';
+                $mail->Username = ' '; //Your email
+                $mail->Password = ' '; //Your password
                 $mail->SMTPSecure = 'tls';
                 $mail->Port = 587;
 
