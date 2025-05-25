@@ -74,7 +74,7 @@
 
 ## 🛠️ Setup Instructions
 
-git clone https://github.com/yourusername/bloodstock-management.git
+git clone https://github.com/Sripramod-Y/Blood-Stock-Management.git
 Import SQL:
 Open MySQL and import the Bloodstock.sql file.
 
