@@ -1,8 +1,5 @@
 <h1 align="center" style="color:#FF4444;">🩸 BloodStock Management System</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=FF4444&center=true&vCenter=true&width=600&lines=Blood+Stock+Management+System;Auto+Expiry+%7C+Hospital+Request+Simulator;PHP+%2B+MySQL+%2B+AJAX+%3D+%F0%9F%A9%B8" alt="Typing Animation" />
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/🚑%20Status-Completed-ff0033?style=for-the-badge&logo=dropbox&logoColor=white" />
@@ -75,9 +72,8 @@
 ## 🛠️ Setup Instructions
 
 git clone https://github.com/Sripramod-Y/Blood-Stock-Management.git
-Import SQL:
-Open MySQL and import the Bloodstock.sql file.
-
+<br></br>Import SQL:
+ Open MySQL and import the Bloodstock.sql file.
 Set Up Config:
 Edit config.php like this:
 
@@ -88,29 +84,25 @@ Edit config.php like this:
     $db_name = 'bloodstock';
 
 Run Locally:
-
-Launch Apache & MySQL in XAMPP/WAMP.
+<br>Launch Apache & MySQL in XAMPP/WAMP.</br>
 
 Visit http://localhost/BSMS/index.php. (BSMS - Project root folder inside C:/xammp/htdocs/BSMS)
 
 🚀 Future Enhancements
-📲 Mobile-friendly dark UI
-
-📧 Real email/SMS notifications (Twilio/SMTP)
-
-🔐 Role-based login for hospitals & donors
-
-🔮 AI-based demand prediction
+- 📲 Mobile-friendly dark UI
+- 📧 Real email/SMS notifications (Twilio/SMTP)
+- 🔐 Role-based login for hospitals & donors
+- 🔮 AI-based demand prediction
 
 🧪 Project Status
-✔️ Core modules working
-🧪 Tested with dummy data
-📌 Hosted on localhost only
+- ✔️ Core modules working
+- 🧪 Tested with dummy data
+- 📌 Hosted on localhost only
 
 # 📥 Installing Dependencies
 📦 Dependencies:
-PHPMailer (included in /vendor folder manually)
-No Composer required.
-And Replace the username and password in contact-donors.php 
+<br>PHPMailer (included in /vendor folder manually)</br>
+<br>No Composer required.</br>
+<br>And Replace the username and password in contact-donors.php</br>
 
 <p align="center"> <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="150px" alt="blood drop gif" /> </p> <p align="center" style="color:#FF4444;"> Built  by <strong>Sripramod</strong><br> CSE @ Anna University | 2025 </p> 
